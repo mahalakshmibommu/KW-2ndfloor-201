@@ -1,0 +1,457 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPuUwyFdmw5d1pfSVsL83LQ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mahalakshmibommu/KW-2ndfloor-201/blob/main/lists\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "oE7hTjT0xw-9"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Lists"
+      ],
+      "metadata": {
+        "id": "iJs9Ka6Nx5uC"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# names list\n",
+        "names = ['bhavani', 'pravallika', 'swathi']\n",
+        "\n",
+        "\n",
+        "# Add 'praneetha' to the list\n",
+        "names.append('praneetha')\n",
+        "\n",
+        "\n",
+        "print('Updated names list: ', names)"
+      ],
+      "metadata": {
+        "id": "v8tIE2U_x74z"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Clear list"
+      ],
+      "metadata": {
+        "id": "73ILJOsX1gRn"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "T_cUd7t6jWQU"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "names= ['bhavani', 'pravallika', 'Swathi','praneetha']\n",
+        "print('names before clear:', names)\n",
+        "\n",
+        "# Clearing list\n",
+        "names.clear()\n",
+        "print('names after clear:', names)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KRU_cw-J1i4L",
+        "outputId": "35e73a56-0a8c-48da-c2f8-b228e2ff5b4c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "names before clear: ['bhavani', 'pravallika', 'Swathi', 'praneetha']\n",
+            "names after clear: []\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Copy list"
+      ],
+      "metadata": {
+        "id": "gu8lBv_C4vPN"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "list = ['bhavani','pravallika','swathi']\n",
+        "new_list = list.copy()\n",
+        "print('Copied List:', new_list)"
+      ],
+      "metadata": {
+        "id": "t-9ccCeC4xU_"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "iyLyDkAOjY7s"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Count list"
+      ],
+      "metadata": {
+        "id": "yZf-au726OxL"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "Names= ['bhavani', 'pravallika', 'bhavani']\n",
+        "\n",
+        "x = Names.count('bhavani')\n",
+        "\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NwPO5oMK6RIs",
+        "outputId": "6c579977-f9c1-4586-ee89-59348e6de5d4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Extend list"
+      ],
+      "metadata": {
+        "id": "8-2NaVge9AOo"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "names = ['bhavani', 'pravallika', 'swathi']\n",
+        "\n",
+        "dress = ['halfsaree', 'jenns', 'saree']\n",
+        "\n",
+        "names.extend(dress)\n",
+        "\n",
+        "print(names)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-vfQ0GUl9ChP",
+        "outputId": "5c70b2cc-8504-4ef5-90cb-38225d5309d3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['bhavani', 'pravallika', 'swathi', 'halfsaree', 'jenns', 'saree']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Index list"
+      ],
+      "metadata": {
+        "id": "kqTQXJsqC2FQ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "names = ['bhavani', 'pravallika', 'swathi']\n",
+        "\n",
+        "x = names.index('pravallika')\n",
+        "\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "87eszQY9C47a",
+        "outputId": "997165a8-09a9-4614-d12e-0b219452297e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "ty5tmdvAD9oc"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Insert list"
+      ],
+      "metadata": {
+        "id": "WsbKNM34EaHk"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "names= ['bhavani', 'pravallika', 'swathi']\n",
+        "\n",
+        "names.insert(1, 'praneetha')\n",
+        "\n",
+        "print(names)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "czEqQ8gcEeLs",
+        "outputId": "3d94751a-13b9-426a-8e2f-92a8293e2b18"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['bhavani', 'praneetha', 'pravallika', 'swathi']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Pop list"
+      ],
+      "metadata": {
+        "id": "5HKkq4nzFeJ3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "names = ['bhavani', 'pravallika', 'swathi']\n",
+        "\n",
+        "names.pop(1)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "rMGBQ3MnFg13",
+        "outputId": "4746b559-1059-4724-e01b-4f0855a3b74a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'pravallika'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 40
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Remove list"
+      ],
+      "metadata": {
+        "id": "eMNgNR_mGIRT"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "names = ['bhavani', 'pravallika', 'swathi']\n",
+        "\n",
+        "names.remove('bhavani')\n",
+        "\n",
+        "print(names)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ykfpt1wvGKpk",
+        "outputId": "2e3650f3-2a42-4652-d8cf-6601ebe38ccc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['pravallika', 'swathi']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Reverse list"
+      ],
+      "metadata": {
+        "id": "QsnH1ParHCrw"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "names= ['bhavani', 'pravallika', 'swathi']\n",
+        "\n",
+        "names.reverse()\n",
+        "\n",
+        "print(names)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3Lr5aKl2HE19",
+        "outputId": "74122bf8-72ab-4159-e0dc-9ca66c3904d4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['swathi', 'pravallika', 'bhavani']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Sort list"
+      ],
+      "metadata": {
+        "id": "CBEICe0_HgrF"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "names = ['bhavani', 'pravallika', 'swathi']\n",
+        "\n",
+        "names.sort()\n",
+        "\n",
+        "print(names)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "w5KBT5HWHisl",
+        "outputId": "fc1db77c-b01c-43cf-baa0-3b777c1fd047"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['bhavani', 'pravallika', 'swathi']\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
